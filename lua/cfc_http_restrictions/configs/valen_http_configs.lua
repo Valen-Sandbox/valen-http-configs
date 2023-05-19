@@ -21,8 +21,8 @@ return {
         ["*.pointshop2.com"] = { allowed = true, permanent = true },
 
         ["discord.gg"] = { allowed = true },
-        ["cdn[%w-_]*.discordapp%.com"] = { allowed = true },
-        ["images-([%w%-]+)%.discordapp%.net"] = { allowed = true },
+        ["cdn[%w-_]*.discordapp%.com"] = { allowed = true, pattern = true },
+        ["images-([%w%-]+)%.discordapp%.net"] = { allowed = true, pattern = true },
 
         -- media player
         ["samuelmaddock.github.io"] = { allowed = true }
