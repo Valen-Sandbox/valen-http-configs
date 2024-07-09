@@ -24,7 +24,10 @@ return {
         ["cdn[%w-_]*.discordapp%.com"] = { allowed = true, pattern = true },
         ["images-([%w%-]+)%.discordapp%.net"] = { allowed = true, pattern = true },
 
+        ["gmod.express"] = { allowed = true, permanent = true },
+        ["stg.gmod.express"] = { allowed = true, permanent = true },
+
         -- media player
-        ["samuelmaddock.github.io"] = { allowed = true }
+        ["samuelmaddock.github.io"] = { allowed = true },
     }
 }
