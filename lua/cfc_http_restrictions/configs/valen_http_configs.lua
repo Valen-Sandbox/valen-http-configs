@@ -1,12 +1,12 @@
 AddCSLuaFile()
 
 return {
-    version = "1", -- this field allows backwards compatibility if the config structure is ever updated
+    version = "1", -- This field allows backwards compatibility if the config structure is ever updated
 
     wrapHTMLPanels = true,
 
     addresses = {
-        -- domains starfall docs have
+        -- Domains Starfall docs have
         ["npms.io"] = { allowed = true },
         ["fb.me"] = { allowed = true },
         ["reactjs.org"] = { allowed = true },
@@ -24,10 +24,16 @@ return {
         ["cdn[%w-_]*.discordapp%.com"] = { allowed = true, pattern = true },
         ["images-([%w%-]+)%.discordapp%.net"] = { allowed = true, pattern = true },
 
-        ["gmod.express"] = { allowed = true, permanent = true },
-        ["stg.gmod.express"] = { allowed = true, permanent = true },
+        -- gm_express
+        ["gmod.express"] = { allowed = true, permanent = true, noisy = true },
+        ["stg.gmod.express"] = { allowed = true, permanent = true, noisy = true },
+        ["gmodexpress.com"] = { allowed = true, permanent = true, noisy = true },
+        ["stg.gmodexpress.com"] = { allowed = true, permanent = true, noisy = true },
 
-        -- media player
+        -- Media Player
         ["samuelmaddock.github.io"] = { allowed = true },
+
+        -- Physgun crash screen
+        ["joinmyga.me"] = { allowed = true, permanent = true },
     }
 }
