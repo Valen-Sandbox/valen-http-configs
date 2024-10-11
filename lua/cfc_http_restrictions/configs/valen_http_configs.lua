@@ -24,9 +24,7 @@ return {
         ["cdn[%w-_]*.discordapp%.com"] = { allowed = true, pattern = true },
         ["images-([%w%-]+)%.discordapp%.net"] = { allowed = true, pattern = true },
 
-        -- gm_express
-        ["gmod.express"] = { allowed = true, permanent = true, noisy = true },
-        ["stg.gmod.express"] = { allowed = true, permanent = true, noisy = true },
+        -- gm_express test domains
         ["gmodexpress.com"] = { allowed = true, permanent = true, noisy = true },
         ["stg.gmodexpress.com"] = { allowed = true, permanent = true, noisy = true },
 
