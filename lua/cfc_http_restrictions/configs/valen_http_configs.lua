@@ -32,6 +32,7 @@ return {
         ["samuelmaddock.github.io"] = { allowed = true },
 
         -- Physgun crash screen
-        ["joinmyga.me"] = { allowed = true, permanent = true },
+        ["joinmyga.me"] = { allowed = true, permanent = true, noisy = true },
+        ["api.physgun.com"] = { allowed = true, permanent = true, noisy = true },
     }
 }
