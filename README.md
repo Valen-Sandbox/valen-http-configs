@@ -1,4 +1,4 @@
 # valen-http-configs
  Gmod HTTP whitelist server configurations
  
- Requires [cfc_cl_http_whitelist](https://github.com/CFC-Servers/cfc_cl_http_whitelist) to work
+ Requires [cfc_http_whitelist](https://github.com/CFC-Servers/cfc_http_whitelist) to work
